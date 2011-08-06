@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05A1DFBF13ED95F90028FC7F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05A1DFBE13ED95F90028FC7F /* Cocoa.framework */; };
+		05A1DFC913ED95F90028FC7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05A1DFC713ED95F90028FC7F /* InfoPlist.strings */; };
+		05A1DFCB13ED95F90028FC7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1DFCA13ED95F90028FC7F /* main.m */; };
+		05A1DFCF13ED95F90028FC7F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 05A1DFCD13ED95F90028FC7F /* Credits.rtf */; };
+		05A1DFD213ED95F90028FC7F /* MobotAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1DFD113ED95F90028FC7F /* MobotAppDelegate.m */; };
+		05A1DFD513ED95FA0028FC7F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05A1DFD313ED95FA0028FC7F /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05A1DFBA13ED95F90028FC7F /* Mobot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mobot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05A1DFBE13ED95F90028FC7F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		05A1DFC113ED95F90028FC7F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		05A1DFC213ED95F90028FC7F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		05A1DFC313ED95F90028FC7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05A1DFC613ED95F90028FC7F /* Mobot-Info.plist */ = {isa = PBXFileReference; path = "Mobot-Info.plist"; sourceTree = "<group>"; };
+		05A1DFC813ED95F90028FC7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05A1DFCA13ED95F90028FC7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05A1DFCC13ED95F90028FC7F /* Mobot-Prefix.pch */ = {isa = PBXFileReference; path = "Mobot-Prefix.pch"; sourceTree = "<group>"; };
+		05A1DFCE13ED95F90028FC7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		05A1DFD013ED95F90028FC7F /* MobotAppDelegate.h */ = {isa = PBXFileReference; path = MobotAppDelegate.h; sourceTree = "<group>"; };
+		05A1DFD113ED95F90028FC7F /* MobotAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobotAppDelegate.m; sourceTree = "<group>"; };
+		05A1DFD413ED95FA0028FC7F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05A1DFB713ED95F90028FC7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05A1DFBF13ED95F90028FC7F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05A1DFAF13ED95F90028FC7F = {
+			isa = PBXGroup;
+			children = (
+				05A1DFC413ED95F90028FC7F /* Mobot */,
+				05A1DFBD13ED95F90028FC7F /* Frameworks */,
+				05A1DFBB13ED95F90028FC7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05A1DFBB13ED95F90028FC7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05A1DFBA13ED95F90028FC7F /* Mobot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05A1DFBD13ED95F90028FC7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05A1DFBE13ED95F90028FC7F /* Cocoa.framework */,
+				05A1DFC013ED95F90028FC7F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05A1DFC013ED95F90028FC7F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05A1DFC113ED95F90028FC7F /* AppKit.framework */,
+				05A1DFC213ED95F90028FC7F /* CoreData.framework */,
+				05A1DFC313ED95F90028FC7F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		05A1DFC413ED95F90028FC7F /* Mobot */ = {
+			isa = PBXGroup;
+			children = (
+				05A1DFD013ED95F90028FC7F /* MobotAppDelegate.h */,
+				05A1DFD113ED95F90028FC7F /* MobotAppDelegate.m */,
+				05A1DFD313ED95FA0028FC7F /* MainMenu.xib */,
+				05A1DFC513ED95F90028FC7F /* Supporting Files */,
+			);
+			path = Mobot;
+			sourceTree = "<group>";
+		};
+		05A1DFC513ED95F90028FC7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05A1DFC613ED95F90028FC7F /* Mobot-Info.plist */,
+				05A1DFC713ED95F90028FC7F /* InfoPlist.strings */,
+				05A1DFCA13ED95F90028FC7F /* main.m */,
+				05A1DFCC13ED95F90028FC7F /* Mobot-Prefix.pch */,
+				05A1DFCD13ED95F90028FC7F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05A1DFB913ED95F90028FC7F /* Mobot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05A1DFD813ED95FA0028FC7F /* Build configuration list for PBXNativeTarget "Mobot" */;
+			buildPhases = (
+				05A1DFB613ED95F90028FC7F /* Sources */,
+				05A1DFB713ED95F90028FC7F /* Frameworks */,
+				05A1DFB813ED95F90028FC7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mobot;
+			productName = Mobot;
+			productReference = 05A1DFBA13ED95F90028FC7F /* Mobot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05A1DFB113ED95F90028FC7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Third Cog Software";
+			};
+			buildConfigurationList = 05A1DFB413ED95F90028FC7F /* Build configuration list for PBXProject "Mobot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05A1DFAF13ED95F90028FC7F;
+			productRefGroup = 05A1DFBB13ED95F90028FC7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05A1DFB913ED95F90028FC7F /* Mobot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05A1DFB813ED95F90028FC7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05A1DFC913ED95F90028FC7F /* InfoPlist.strings in Resources */,
+				05A1DFCF13ED95F90028FC7F /* Credits.rtf in Resources */,
+				05A1DFD513ED95FA0028FC7F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05A1DFB613ED95F90028FC7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05A1DFCB13ED95F90028FC7F /* main.m in Sources */,
+				05A1DFD213ED95F90028FC7F /* MobotAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05A1DFC713ED95F90028FC7F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05A1DFC813ED95F90028FC7F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		05A1DFCD13ED95F90028FC7F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05A1DFCE13ED95F90028FC7F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		05A1DFD313ED95FA0028FC7F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05A1DFD413ED95FA0028FC7F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05A1DFD613ED95FA0028FC7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		05A1DFD713ED95FA0028FC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		05A1DFD913ED95FA0028FC7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mobot/Mobot-Prefix.pch";
+				INFOPLIST_FILE = "Mobot/Mobot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		05A1DFDA13ED95FA0028FC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mobot/Mobot-Prefix.pch";
+				INFOPLIST_FILE = "Mobot/Mobot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05A1DFB413ED95F90028FC7F /* Build configuration list for PBXProject "Mobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05A1DFD613ED95FA0028FC7F /* Debug */,
+				05A1DFD713ED95FA0028FC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05A1DFD813ED95FA0028FC7F /* Build configuration list for PBXNativeTarget "Mobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05A1DFD913ED95FA0028FC7F /* Debug */,
+				05A1DFDA13ED95FA0028FC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05A1DFB113ED95F90028FC7F /* Project object */;
+}
