@@ -16,6 +16,7 @@
 		05A1DFF613EDBF620028FC7F /* CoCAAudioUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1DFF513EDBF620028FC7F /* CoCAAudioUnit.m */; };
 		05A1DFFA13EDC1080028FC7F /* NCCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1DFF913EDC1080028FC7F /* NCCommon.m */; };
 		05A1DFFC13EDC1320028FC7F /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05A1DFFB13EDC1320028FC7F /* AudioUnit.framework */; };
+		05A1E02813EE11F20028FC7F /* TCRingBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1E02713EE11F20028FC7F /* TCRingBuffer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		05A1DFF813EDC1080028FC7F /* NCCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NCCommon.h; path = Vendor/CoCA/NCCommon.h; sourceTree = "<group>"; };
 		05A1DFF913EDC1080028FC7F /* NCCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NCCommon.m; path = Vendor/CoCA/NCCommon.m; sourceTree = "<group>"; };
 		05A1DFFB13EDC1320028FC7F /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		05A1E02613EE11F20028FC7F /* TCRingBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCRingBuffer.h; path = Vendor/CoCA/Source/TCRingBuffer.h; sourceTree = "<group>"; };
+		05A1E02713EE11F20028FC7F /* TCRingBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCRingBuffer.m; path = Vendor/CoCA/Source/TCRingBuffer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 		05A1DFF313EDBF520028FC7F /* CoCA */ = {
 			isa = PBXGroup;
 			children = (
+				05A1E02613EE11F20028FC7F /* TCRingBuffer.h */,
+				05A1E02713EE11F20028FC7F /* TCRingBuffer.m */,
 				05A1DFF413EDBF620028FC7F /* CoCAAudioUnit.h */,
 				05A1DFF513EDBF620028FC7F /* CoCAAudioUnit.m */,
 				05A1DFF713EDBF6C0028FC7F /* PrivateUtil.h */,
@@ -193,6 +198,7 @@
 				05A1DFD213ED95F90028FC7F /* MobotAppDelegate.m in Sources */,
 				05A1DFF613EDBF620028FC7F /* CoCAAudioUnit.m in Sources */,
 				05A1DFFA13EDC1080028FC7F /* NCCommon.m in Sources */,
+				05A1E02813EE11F20028FC7F /* TCRingBuffer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

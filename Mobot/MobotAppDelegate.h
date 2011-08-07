@@ -12,6 +12,10 @@
     NSWindow *_window;
     IBOutlet NSTextField *inputField;
     IBOutlet NSTextField *baudRateDescription;
+    IBOutlet NSSlider *baudRateSlider;
+    IBOutlet NSTextField *charDetail;
+    IBOutlet NSTextField *bits;
+    IBOutlet NSTextField *highlightedBits;
 }
 
 @property (strong) IBOutlet NSWindow *window;
