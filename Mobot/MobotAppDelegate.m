@@ -121,6 +121,6 @@ static const CGFloat zeroHz = 1200, oneHz = 2400;
     }
     self.one = [NSData dataWithBytes:samples length:sampleCountPerSymbol*sizeof(float)];
     
-    buffer.capacity = sampleCountPerSymbol*sizeof(float)*1.2;
+    //buffer.capacity = sampleCountPerSymbol*sizeof(float)*1.2;
 }
 @end
