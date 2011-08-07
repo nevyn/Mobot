@@ -10,8 +10,12 @@
 
 @interface MobotAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *_window;
+    IBOutlet NSTextField *inputField;
+    IBOutlet NSTextField *baudRateDescription;
 }
 
 @property (strong) IBOutlet NSWindow *window;
+- (IBAction)playText:(id)sender;
+- (IBAction)changeBaudRate:(NSSlider*)sender;
 
 @end

@@ -1,0 +1,3 @@
+[submodule "Mobot/Vendor/CoCA"]
+	path = Mobot/Vendor/CoCA
+	url = git@github.com:nevyn/CoCA.git

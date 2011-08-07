@@ -13,6 +13,9 @@
 		05A1DFCF13ED95F90028FC7F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 05A1DFCD13ED95F90028FC7F /* Credits.rtf */; };
 		05A1DFD213ED95F90028FC7F /* MobotAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1DFD113ED95F90028FC7F /* MobotAppDelegate.m */; };
 		05A1DFD513ED95FA0028FC7F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05A1DFD313ED95FA0028FC7F /* MainMenu.xib */; };
+		05A1DFF613EDBF620028FC7F /* CoCAAudioUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1DFF513EDBF620028FC7F /* CoCAAudioUnit.m */; };
+		05A1DFFA13EDC1080028FC7F /* NCCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1DFF913EDC1080028FC7F /* NCCommon.m */; };
+		05A1DFFC13EDC1320028FC7F /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05A1DFFB13EDC1320028FC7F /* AudioUnit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +24,20 @@
 		05A1DFC113ED95F90028FC7F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		05A1DFC213ED95F90028FC7F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		05A1DFC313ED95F90028FC7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		05A1DFC613ED95F90028FC7F /* Mobot-Info.plist */ = {isa = PBXFileReference; path = "Mobot-Info.plist"; sourceTree = "<group>"; };
+		05A1DFC613ED95F90028FC7F /* Mobot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mobot-Info.plist"; sourceTree = "<group>"; };
 		05A1DFC813ED95F90028FC7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		05A1DFCA13ED95F90028FC7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		05A1DFCC13ED95F90028FC7F /* Mobot-Prefix.pch */ = {isa = PBXFileReference; path = "Mobot-Prefix.pch"; sourceTree = "<group>"; };
+		05A1DFCC13ED95F90028FC7F /* Mobot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mobot-Prefix.pch"; sourceTree = "<group>"; };
 		05A1DFCE13ED95F90028FC7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		05A1DFD013ED95F90028FC7F /* MobotAppDelegate.h */ = {isa = PBXFileReference; path = MobotAppDelegate.h; sourceTree = "<group>"; };
+		05A1DFD013ED95F90028FC7F /* MobotAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobotAppDelegate.h; sourceTree = "<group>"; };
 		05A1DFD113ED95F90028FC7F /* MobotAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobotAppDelegate.m; sourceTree = "<group>"; };
 		05A1DFD413ED95FA0028FC7F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		05A1DFF413EDBF620028FC7F /* CoCAAudioUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoCAAudioUnit.h; path = Vendor/CoCA/Source/CoCAAudioUnit.h; sourceTree = "<group>"; };
+		05A1DFF513EDBF620028FC7F /* CoCAAudioUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoCAAudioUnit.m; path = Vendor/CoCA/Source/CoCAAudioUnit.m; sourceTree = "<group>"; };
+		05A1DFF713EDBF6C0028FC7F /* PrivateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrivateUtil.h; path = Vendor/CoCA/Source/PrivateUtil.h; sourceTree = "<group>"; };
+		05A1DFF813EDC1080028FC7F /* NCCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NCCommon.h; path = Vendor/CoCA/NCCommon.h; sourceTree = "<group>"; };
+		05A1DFF913EDC1080028FC7F /* NCCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NCCommon.m; path = Vendor/CoCA/NCCommon.m; sourceTree = "<group>"; };
+		05A1DFFB13EDC1320028FC7F /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05A1DFFC13EDC1320028FC7F /* AudioUnit.framework in Frameworks */,
 				05A1DFBF13ED95F90028FC7F /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +56,7 @@
 		05A1DFAF13ED95F90028FC7F = {
 			isa = PBXGroup;
 			children = (
+				05A1DFFB13EDC1320028FC7F /* AudioUnit.framework */,
 				05A1DFC413ED95F90028FC7F /* Mobot */,
 				05A1DFBD13ED95F90028FC7F /* Frameworks */,
 				05A1DFBB13ED95F90028FC7F /* Products */,
@@ -85,6 +96,7 @@
 				05A1DFD013ED95F90028FC7F /* MobotAppDelegate.h */,
 				05A1DFD113ED95F90028FC7F /* MobotAppDelegate.m */,
 				05A1DFD313ED95FA0028FC7F /* MainMenu.xib */,
+				05A1DFF313EDBF520028FC7F /* CoCA */,
 				05A1DFC513ED95F90028FC7F /* Supporting Files */,
 			);
 			path = Mobot;
@@ -100,6 +112,18 @@
 				05A1DFCD13ED95F90028FC7F /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05A1DFF313EDBF520028FC7F /* CoCA */ = {
+			isa = PBXGroup;
+			children = (
+				05A1DFF413EDBF620028FC7F /* CoCAAudioUnit.h */,
+				05A1DFF513EDBF620028FC7F /* CoCAAudioUnit.m */,
+				05A1DFF713EDBF6C0028FC7F /* PrivateUtil.h */,
+				05A1DFF813EDC1080028FC7F /* NCCommon.h */,
+				05A1DFF913EDC1080028FC7F /* NCCommon.m */,
+			);
+			name = CoCA;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +191,8 @@
 			files = (
 				05A1DFCB13ED95F90028FC7F /* main.m in Sources */,
 				05A1DFD213ED95F90028FC7F /* MobotAppDelegate.m in Sources */,
+				05A1DFF613EDBF620028FC7F /* CoCAAudioUnit.m in Sources */,
+				05A1DFFA13EDC1080028FC7F /* NCCommon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +276,7 @@
 		05A1DFD913ED95FA0028FC7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mobot/Mobot-Prefix.pch";
 				INFOPLIST_FILE = "Mobot/Mobot-Info.plist";
@@ -261,6 +288,7 @@
 		05A1DFDA13ED95FA0028FC7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mobot/Mobot-Prefix.pch";
 				INFOPLIST_FILE = "Mobot/Mobot-Info.plist";
